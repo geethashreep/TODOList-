@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(88.7deg, rgb(136, 238, 214) 7.1%, rgb(91, 193, 239) 60.4%, rgb(197, 179, 234) 115.3%);
+    margin:50px;
+    margin-top:175px;
+   
+   
+}
+h1{
+    text-align: center;
+    font-family:monospace;
+    font-size:35px;
+    color:white;
+    
+}
+.todolist
+{
+    text-align:center;
+}
+#addtask
+{
+height:50px;
+width:250px;
+background:whitesmoke ;
+font-size: large;
+text-align:center;
+border-radius:5px;
+margin-bottom:20px;
+margin-right:5px;
+font-family: monaco,monospace;
+border:none;
+font-size: 14px;
+}
+#button
+{
+    height:50px;
+    width:50px;
+    border:none;
+    background:radial-gradient(circle at 22.4% 21.7%, rgb(4, 189, 228) 0%, rgb(2, 83, 185) 100.2%);
+    color:black;
+    font-family: monaco,monospace;
+    border-radius:7px;
+    font-size: medium;
+
+}
+#tasks
+{
+    list-style:none;
+ 
+}
+.btn
+{
+    height:49px;
+    width:50px;
+    background:crimson;
+    border-radius:5px;
+    font-size: 25px;
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.list 
+{   
+    display: flex;
+    justify-content:space-between;
+    align-items: center ;
+height:50px;
+width:315px;
+background-color:whitesmoke;
+font-size:large;
+color:black;
+text-align: center;
+border-radius: 5px;
+font-family: monaco,monospace;
+font-size: 14px;
+list-style: none;
+margin:15px auto;
+position :relative;
+top:-1.5%;
+left:-1.5%;
+
+}
+
+.completed
+{
+    text-decoration: line-through #0076CE ;
+    color: grey;
+    background-color:#B9D9EB;
+    text-decoration-thickness:2px;
+   
+    
+}
+.cb
+{
+    width: 20px;
+    height: 20px;
+    
+    
+}
